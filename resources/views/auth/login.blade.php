@@ -9,7 +9,7 @@
     <div class="md:flex md:justify-center md:gap-10 md:items-center">
         <div class="md:w-7/12">
             
-            <img src="{{ asset('img/perfil.png') }}" alt="imagen registro de usuarios">
+            <img src="{{ asset('img/logoSpacesen.jpg') }}" alt="imagen registro de usuarios">
 
         </div>  
         <div class="md:w-5/12 bg-white p-6 rounded-lg shadow-xl">
