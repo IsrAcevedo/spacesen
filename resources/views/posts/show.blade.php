@@ -11,8 +11,10 @@
             alt="imagen de publicacion {{$post->titulo}}">
             <div class="p-3 flex items-center gap-4">
             
-                    <livewire:like-post :post="$post"/>
-                  
+                  @auth
+                        <livewire:like-post :post="$post"/>
+                    
+                  @endauth
                
                 
             </div>
